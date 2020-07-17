@@ -1,0 +1,31 @@
+.row {
+  margin-left: 10px;
+}
+
+.row_posters {
+  display: flex;
+  margin-left: 20px;
+  overflow-y: hidden;
+  padding: 20px;
+}
+
+.row_poster {
+  max-height: 120px;
+  width: 100%;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.row_poster:hover {
+  transform: scale(1.06);
+}
+
+.large_poster {
+  max-height: 320px;
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
